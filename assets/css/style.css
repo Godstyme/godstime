@@ -1,3 +1,6 @@
+*{
+  font-family: 'SF UI Text', sans-serif;
+}
 header{
   background: #F4F4F4;
 }
@@ -6,12 +9,12 @@ header{
   font-weight: bolder;
 }
 .left-bar{
-  min-height: 70vh;
+  min-height: 80vh;
   /* background: goldenrod; */
   padding-top: 8em;
 }
 .right-bar{
-  min-height: 70vh;
+  min-height: 80vh;
   /* background: gray; */
   padding-top: 4em;
 }
@@ -37,6 +40,15 @@ header{
   background: #073507;
   color: #fff;
   font-weight: bolder;
+}
+footer{
+  min-height: 10vh;
+  background: #3D155F;
+  color: #fff;
+  font-size: 15px;
+}
+footer > div >  a{
+  color: #fff;
 }
 @media (max-width:480px){
   .left-bar{
