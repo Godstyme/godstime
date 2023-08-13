@@ -35,6 +35,8 @@ header{
 }
 .btn-cl{
   background: #073507;
+  color: #fff;
+  font-weight: bolder;
 }
 @media (max-width:480px){
   .left-bar{
