@@ -1,6 +1,9 @@
 *{
   font-family: 'SF UI Text', sans-serif;
 }
+body{
+  background: #3D155F;
+}
 header{
   background: #F4F4F4;
 }
@@ -10,7 +13,7 @@ header{
 }
 .left-bar{
   min-height: 80vh;
-  /* background: goldenrod; */
+  background: #fff;
   padding-top: 8em;
 }
 .right-bar{
@@ -56,7 +59,7 @@ footer > div >  a{
     padding: 2em 1em;
   }
   .right-bar{
-    min-height: auto;
+    min-height:max-content;
     background: #073507;
     padding-top: 0em;    
   }
@@ -71,6 +74,9 @@ footer > div >  a{
   }
   .btn-length{
     width: 50%;
+  }
+  footer{
+    
   }
 }
 
