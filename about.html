@@ -15,7 +15,10 @@
   <header>
     <nav class="navbar navbar-expand-sm navbar-light px-2 shadow">
       <div class="container-fluid ">
-      <a class="navbar-brand " href="#">Nwujiokah Godstime</a>
+        <a class="navbar-brand" href="#">
+          <img src="assets/imgs/profile.png" alt="" width="30" height="24" class="d-inline-block align-text-top img-fluid">
+          Nwujiokah Godstime
+        </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -43,28 +46,22 @@
     <section>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-7 left-bar">
-            <div class="row">
-              <div class="col-md-1 social-handle-container">
-                <a href="https://linkedin.com/in/godstime-onyibe-357523181" target="_blank" class=""><i class="fab fa-linkedin fa-2x"></i></a>
-                <a href="https://www.facebook.com/Godstimeonyibelawrence" target="_blank" class=""><i class="fab fa-facebook fa-2x"></i></a>
-                <a href="https://www.instagram.com/godstime_onyibe/" target="_blank" class=""><i class="fab fa-instagram fa-2x"></i></a>
-                <a href="https://github.com/Godstyme" target="_blank" class=""><i class="fab fa-github fa-2x"></i></a>
-                <a href="https://twitter.com/GodstimeOnyibe/" target="_blank" class=""><i class="fab fa-twitter  fa-2x"></i></a>
-              </div>
-              <div class="col-md-10">
+          <div class="col-md-6 left-bar">
+              
+              <div class="col-md-8 offset-md-2">
                 <h1 id="bio">Hi!, I'M GODSTIME ONYIBE NWUJIOKAH</h1>
                 <p>
                   A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product
                 </p>
                 <div class="btn-holder">
-                  <button class="btn btn-cl rounded-pill btn-length" type="button">Project</button>
-                  <button type="button" class="btn btn-outline-success rounded-pill">Download Resume</button>
+                    <button class="btn btn-cl rounded-pill btn-length" type="submit" onclick = "startDownload()">
+                      <i class="fa fa-download"></i>
+                      Download Resume!
+                    </button>
                 </div>
               </div>
-            </div>
           </div>
-          <div class="col-md-5 right-bar">
+          <div class="col-md-6 right-bar">
             <div class="skills">
               <div class="skills__skill">HTML</div>
               <div class="skills__skill">CSS</div>
@@ -79,6 +76,30 @@
               <div class="skills__skill">Express Basics</div>
               <div class="skills__skill">SQL Basics</div>
             </div>
+            <div class="col-md-1 social-handle-wrap">
+              <a href="https://linkedin.com/in/godstime-onyibe-357523181" target="_blank" class="">
+                <img src="assets/imgs/linkedin.gif" alt="" alt="Linkedin"
+                loading="lazy">
+              </a>
+              <a href="https://www.facebook.com/Godstimeonyibelawrence" target="_blank" class="">
+                <img src="assets/imgs/facebook.gif" alt="" alt="facebook"
+                loading="lazy">
+              </a>
+              <a href="https://www.instagram.com/godstime_onyibe/" target="_blank" class="">
+                <img src="assets/imgs/instagram.gif" alt="" alt="Instagram"
+                loading="lazy">
+              </a>
+              </a>
+              <a href="https://github.com/Godstyme" target="_blank" class="">
+                <img src="assets/imgs/github.gif" alt="" alt="Github"
+                loading="lazy">
+              </a>
+              <a href="https://twitter.com/GodstimeOnyibe/" target="_blank" class="">
+                <img src="assets/imgs/twitter.gif" alt="" alt="Twitter"
+                loading="lazy">
+              </a>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -88,10 +109,17 @@
     <div class="text-center px-5">
       Designed & Built By <a href="https://godstyme.netlify.app">Godstime Nwujiokah</a> &hearts; &#124; <span id="tradeMarkTime"></span> All rights reserved 
     </div>
+    
   </footer>
+  <i class="scroll-up" id="scroll-up"
+    ><img
+      src="assets/imgs/arrow.gif"
+      class="socicon up-arrow"
+      alt="scroll-up"
+  /></i>
   
 
-  <script src="https://kit.fontawesome.com/19c4fad278.js" crossorigin="anonymous"></script>
+  <!-- <script src = "https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.1/axios.min.js"> </script> -->
   <script src="assets/js/bs.min.js"></script>
   <script src="assets/js/app.js"></script>
 </body>

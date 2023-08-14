@@ -1,6 +1,9 @@
 *{
   font-family: 'SF UI Text', sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 body{
   background: #073507;;
 }
@@ -69,6 +72,24 @@ footer > div >  a{
   margin: 0 auto;
 }
 
+.scroll-up {
+  position: fixed;
+  right: 0.5%;
+  bottom: 3%;
+  cursor: pointer;
+}
+
+.up-arrow {
+  width: 3rem;
+  height: 3rem;
+}
+.social-handle-wrap{
+  display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: -5%;
+    bottom: 40%;
+}
 
 .skills{display:flex;flex-wrap:wrap}.skills__skill{padding:1rem 2rem;margin-bottom:1.5rem;margin-right:1.5rem;font-size:1.6rem;background:rgba(153,153,153,.2);border-radius:5px;font-weight:600;color:#666}
 @media (max-width:480px){
@@ -83,12 +104,38 @@ footer > div >  a{
     color: white;
     font-weight: bolder;
   }
+  #sm-pix{
+    padding-top: 1em; 
+  }
+  .social-icon{
+    color: #FFF !important;
+  }
+  .left-bar-contact{
+    min-height:max-content;
+    padding-top: 2em;
+    font-weight: bolder;
+  }
   .email{color: #fff !important;}
   .profile{
     margin: 0 auto;
   }
   .social-handle-container{
-    display: none;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 88%;
+    bottom: 20%;
+  }
+  .social-handle-wrap{
+    display: flex;
+      flex-direction: column;
+      position: fixed;
+      right: 0%;
+      bottom: 40%;
+  }
+  .socicon {
+    width: 2rem;
+    height: 2rem;
   }
   .btn-holder{
     text-align: center;
