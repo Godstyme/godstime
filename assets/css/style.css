@@ -17,9 +17,10 @@ header{
 .left-bar{
   min-height: 80vh;
   background: #fff;
-  padding-top: 8em;
+  padding-top: 5em;
   padding-bottom: 1em;
 }
+article{text-align: justify;}
 .left-bar-contact{
   min-height: 80vh;
   background: #fff;
@@ -105,7 +106,7 @@ footer > div >  a{
     font-weight: bolder;
   }
   #sm-pix{
-    padding-top: 1em; 
+    padding: 1em 2.3em 0 2.3em;
   }
   .social-icon{
     color: #FFF !important;
@@ -128,10 +129,10 @@ footer > div >  a{
   }
   .social-handle-wrap{
     display: flex;
-      flex-direction: column;
-      position: fixed;
-      right: 0%;
-      bottom: 40%;
+    flex-direction: column;
+    position: fixed;
+    right: 0%;
+    bottom: 40%;
   }
   .socicon {
     width: 2rem;
@@ -143,8 +144,10 @@ footer > div >  a{
   .btn-length{
     width: 60%;
   }
-  footer{
-    
+  #skill-cap{
+    padding: 1em 0;
+    color: #fff;
+    font-weight: bolder;
   }
 }
 
