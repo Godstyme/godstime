@@ -48,21 +48,22 @@
           <div class="col-md-7 left-bar-contact">
             <div class="col-md-6 offset-md-3">
               <h2 class="py-1 text-success">Send me a message!</h2>
-              <form>
+              <form method="post" id="contact-form">
+                <input type="hidden" name="contact_number">
                 <div class="mb-3">
                   <label for="exampleInputName" class="form-label">Enter your name</label>
-                  <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Enter your name" required>
+                  <input type="text" class="form-control" id="exampleInputName" name="fullname" aria-describedby="nameHelp" placeholder="Enter your name" required>
                 </div>
                 <div class="mb-3">
-                  <label for="exampleInputEmail" class="form-label">Enter your email address</label>
+                  <label for="exampleInputEmail" class="form-label" name="email">Enter your email address</label>
                   <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="nameHelp" placeholder="Enter your email address" required>
                 </div>
                 <div class="mb-3">
-                  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                  <label for="message" class="form-label" name="message">Message</label>
+                  <textarea class="form-control" id="message" rows="3" required></textarea>
                 </div>
                 <div class="d-grid gap-2">
-                  <button class="btn btn-success" type="button">Submit</button>
+                  <button class="btn btn-success"  type="submit">Submit</button>
                 </div>
               </form>
             </div>
@@ -117,7 +118,13 @@
       Designed & Built By <a href="https://godstyme.netlify.app">Godstime Nwujiokah</a> &hearts; &#124; <span id="tradeMarkTime"></span> All rights reserved 
     </div>
   </footer>
-  
+  <i class="scroll-up" id="scroll-up"
+    ><img
+      src="assets/imgs/arrow.gif"
+      class="socicon up-arrow"
+      alt="scroll-up"
+  /></i>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   <script src="assets/js/bs.min.js"></script>
   <script src="assets/js/app.js"></script>
 </body>

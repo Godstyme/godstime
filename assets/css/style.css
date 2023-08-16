@@ -174,7 +174,7 @@ footer > div >  a{
     font-weight: bolder;
   }
   #sm-pix{
-    padding: 5em 2.3em 0 2.3em;
+    padding: 3em 2.3em 0 2.3em;
   }
   .social-icon{
     color: #FFF !important;
@@ -223,7 +223,6 @@ footer > div >  a{
   }
   .profile{
     text-align: center;
-    box-shadow: 2px 2px 1px solid black;
   }
 }
 
