@@ -70,14 +70,14 @@ article{text-align: justify;}
  margin-top: 5px;
  color: black;
 }
+.img-profile{
+  width: 50%;
+  object-fit: contain;
+  border-radius: 10px;
+}
 .profile{
-  height: 300px; 
-  width: 60%; 
-  background: url(../imgs/profile.png); 
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
-  /* border-radius: 10px; */
+  text-align: center;
+  box-shadow: 20px 20px 1px solid black;
 }
 .btn-length{
   width: 40%;
@@ -174,7 +174,7 @@ footer > div >  a{
     font-weight: bolder;
   }
   #sm-pix{
-    padding: 1em 2.3em 0 2.3em;
+    padding: 5em 2.3em 0 2.3em;
   }
   .social-icon{
     color: #FFF !important;
@@ -216,6 +216,14 @@ footer > div >  a{
     padding: 1em 0;
     color: #fff;
     font-weight: bolder;
+  }
+  .img-profile{
+    width: 100%;
+    border-radius: 10px;
+  }
+  .profile{
+    text-align: center;
+    box-shadow: 2px 2px 1px solid black;
   }
 }
 
